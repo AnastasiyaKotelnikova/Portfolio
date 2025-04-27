@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Anastasiya Kotelnikova | Data Scientist</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header>
     <h1>Anastasiya Kotelnikova</h1>
-    <p>Data Scientist | MS in Data Science | Business + Analytics Background</p>
-<p class="tech-stack">
-  Python &nbsp;|&nbsp; R &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Git &nbsp;|&nbsp; AWS &nbsp;|&nbsp; Hadoop &nbsp;|&nbsp; PyTorch &nbsp;|&nbsp; LSTM &nbsp;|&nbsp; SNN &nbsp;|&nbsp; Tableau
-</p>
+
+<h2>Data Scientist | MS in Data Science | Business + Analytics Background</h2>
+
+<hr style="width: 60%; margin: 10px auto;">
+
+<p><em>Turning Data into Actionable Insights</em></p>
+
+<p>Python | R | SQL | Git | AWS | Hadoop | PyTorch | LSTM | SNN | Tableau</p>
 
     <nav>
       <nav>
@@ -72,42 +77,54 @@
   </div>
 </div>
 
-  </section>
+<section id="about" class="about">
+  <div class="profile-pic-container">
+    <img src="IMG_7952.jpg" alt="Anastasiya Kotelnikova" class="profile-pic fade-in">
+  </div>
+
+  <h2>About Me</h2>
+
+  <p>With a foundation in business, logistics, healthcare, and marketing, I approach data science through a deeply interdisciplinary lens. My work blends real-world industry insight with technical skills in machine learning and data analysis to transform complex problems into clear, actionable strategies.</p>
   
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      With a foundation in business, logistics, healthcare, and marketing, I approach data science through a deeply interdisciplinary lens. My work blends real-world industry insight with technical skills in machine learning and data analysis to transform complex problems into clear, actionable strategies.
-    </p>
-    <p>
-      I'm passionate about using data to drive ethical AI, biotech innovation, and operational efficiency. Whether it’s streamlining processes or uncovering key insights, I aim to create smart, impactful solutions that empower both businesses and communities.
-    </p>
-  
-  
-      <a href="Anastasiya_Kotelnikova_Resume.pdf" download class="resume-button">
-        📄 <span>Download My Resume</span>
-      </a>
-  
-      <p style="margin-top: 15px;">
-        Or view it on 
-        <a href="https://github.com/AnastasiyaKotelnikova/Data-Engineer-Resume/blob/main/Anastasiya_Kotelnikova_Data_Engeneer_Analyst_Resume_L%20(1).pdf" target="_blank">GitHub</a> or 
-        <a href="https://www.linkedin.com/in/anastasiya-kotelnikova-511660346/" target="_blank">LinkedIn</a>.
-      </p>
-    </div>
-  </section>  
+  <p>I'm passionate about using data to drive ethical AI, biotech innovation, and operational efficiency. Whether it’s streamlining processes or uncovering key insights, I aim to create smart, impactful solutions that empower both businesses and communities.</p>
+
+  <a href="Anastasiya_Kotelnikova_DS_ML_Resume.pdf" class="button" download>📄 Download My Resume</a>
+
+  <p>Or view it on <a href="https://github.com/AnastasiyaKotelnikova" target="_blank">GitHub</a> or 
+  <a href="https://www.linkedin.com/in/anastasiya-kotelnikova-511660346" target="_blank">LinkedIn</a>.</p>
+</section>
 
   <section id="contact" class="contact">
     <h2>Contact</h2>
     <p>If you'd like to connect or collaborate, feel free to reach out:</p>
-    <a class="email-button" href="mailto:AnastasiyaKotelnikova21@gmail.com">
-      📬 AnastasiyaKotelnikova21@gmail.com
-    </a>
-  </section>    
+    <a href="mailto:AnastasiyaKotelnikova21@gmail.com?subject=Let%27s%20Connect&body=Hi%20Anastasiya%2C%0A%0AI%27d%20like%20to%20connect%20or%20collaborate%20with%20you." class="resume-button">
+      <i class="fa fa-envelope"></i> AnastasiyaKotelnikova21@gmail.com
+    </a>      
+  </section>      
   
   <footer>
-    <p>© 2025 Anastasiya Kotelnikova | <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
-  </footer>
+    <p>© 2025 Anastasiya Kotelnikova | Tech Stack: Python | R | SQL | Git | AWS | Hadoop | PyTorch | LSTM | SNN | Tableau</p>
+    <p>
+      <a href="https://github.com/AnastasiyaKotelnikova" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/anastasiya-kotelnikova-511660346/" target="_blank">LinkedIn</a>
+    </p>
+  </footer>   
 
   <script src="script.js"></script>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    });
+  
+    document.querySelectorAll('.fade-in').forEach(element => {
+      observer.observe(element);
+    });
+  </script>
+   
 </body>
 </html>
