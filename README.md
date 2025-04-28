@@ -1,6 +1,6 @@
 # Anastasiya Kotelnikova
 
-[Portfolio Website](https://anastasiyakotelnikova.github.io/Portfolio/) • [Resume (PDF)](https://github.com/AnastasiyaKotelnikova/AnastasiyaKotelnikova/raw/main/Anastasiya_Kotelnikova_Resume.pdf) • [LinkedIn](https://www.linkedin.com/in/anastasiya-kotelnikova)
+[Portfolio Website](https://anastasiyakotelnikova.github.io/Portfolio/) • [Resume (PDF)](https://github.com/AnastasiyaKotelnikova/Portfolio/raw/portfolio/resume.pdf) • [LinkedIn](https://www.linkedin.com/in/anastasiya-kotelnikova)
 
 Hi! I'm Anastasiya — a passionate Data Science graduate student at NJIT with a strong foundation in machine learning, Python, SQL, and data analytics. With a background in business and a growing portfolio of technical projects, I'm transitioning into the field of ML and AI to solve real-world problems with data-driven solutions.
 
