@@ -188,15 +188,23 @@ body {
     transition: background-color 0.2s ease, color 0.2s ease;
   }  
   
-  
-  .resume-button:hover {
-    background-color: #005f99;
+  .resume-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    transition: 0.3s ease;
   }
   
-  .resume-button span {
-    vertical-align: middle;
-    margin-left: 8px;
+  .resume-btn:hover {
+    background-color: #007bff;
+    color: white;
   }
+  
   
   .about-content a {
     color: #007acc;
@@ -346,3 +354,13 @@ a:hover {
   transform: scale(1.05);
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
 }
+
+.project-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+
