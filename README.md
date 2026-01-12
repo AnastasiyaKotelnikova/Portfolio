@@ -2,7 +2,7 @@
 
 [Portfolio Website](https://anastasiyakotelnikova.github.io/Portfolio/) • 
 [Resume (PDF)](https://github.com/AnastasiyaKotelnikova/Portfolio/raw/main/assets/Anastasiya_Kotelnikova_Resume.pdf) • 
-[LinkedIn](https://www.linkedin.com/in/anastasiya-kotelnikova)
+[LinkedIn](https://www.linkedin.com/in/anastasiyakotelnikova)
 
 ---
 
